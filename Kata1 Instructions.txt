@@ -1,0 +1,24 @@
+Kata1
+
+Vi ska enkapsulara en lista<SpotColor> i en klass ColoredSpots och göra några enklare metoder på klassen och listan
+i klassen.
+
+Uppgifter:
+1. Deklarera en enum type SpotColor som innehåller färgerna Röd, Grön, Blå, Orange, Vit
+2. Deklarara ett Interface IColoredSpots som definierar
+	- Metod, Count, som räknar antalet spots av en viss färg i en lista 
+	- Metod, Sort, som sorterar spots i en lista efter färg
+
+3. Implementera IColoredSpots i en class, ColoredSpots
+4. Här ska ni kunna kompilera (inte köra) programmet utan röda wigglar
+
+5. I ColoredSpots
+	- Skapa en lista av SpotColor
+	- Skapa en constructor som skapar ett antal element i listan med random färger
+	- Override ToString() för att skriva ColoredSpots
+6. I Program skapa en instans av ColordedSpots och skriv ut den
+7. Implementera Count och Sort
+8. Skriv några kodrader i Program som testar Count och Sort
+
+Träna, Träna, Träna. Ovan moment 1-8 ska jobbas in i långtidsminne och muskelminne
+Lycka till!
