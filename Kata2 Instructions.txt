@@ -22,12 +22,3 @@ Uppgifter:
 
 Träna, Träna, Träna. Ovan moment 1-8 ska jobbas in i långtidsminne och muskelminne
 Lycka till!
-
-
-Ni som vill ta katan till ny nivå, gör nedan:
-
-8. Gör listan till en Lista av struct som innehåller DateTime och coloredSpots
-9. lägg till en class indexer till interface
-10. Implementera indexern i VariousDates 
-
-11. Sort() ska sortera listan först efter ColoredSpots, sedan efter DateTime

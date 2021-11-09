@@ -22,6 +22,7 @@ Uppgifter:
 6. Implementera Count och Sort
 7. Skriv några kodrader i Program som testar Count och Sort
 
+Påbyggnad Kata3
 8. Gör listan till en Lista av struct som innehåller DateTime och coloredSpots
 9. lägg till en class indexer till interface
 10. Implementera indexern i VariousDates 
