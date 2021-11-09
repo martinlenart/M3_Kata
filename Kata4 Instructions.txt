@@ -1,0 +1,11 @@
+Kata4 en påbyggnad av Kata3
+
+Vi ska lägga till en classfactory till VariousDates i Kata3
+
+1. Skapa en public static class med namn ClassFactory i classen Various Dates 
+2. I class factory skapa en static metod med namn CreateVariousDatesList som returnerar en List<VariousDates> med antal element
+   som angetts som in-parameter
+3. I CreateVariousDatesList skapa en lista och fyll den med instanser av VariousDates. Varje instans har en lista av SpotDates som
+   slumpmässigt varierar mellan 1 och 50 element
+4. I Program skriv kod som anropar CreateVariousDatesList(5) för att skapa en lista av 5 VariousDates
+5. Skriv ut varje instans av VariousDates i listan

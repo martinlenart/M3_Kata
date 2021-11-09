@@ -10,11 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Kata1 Instructions.txt = Kata1 Instructions.txt
 		Kata2 Instructions.txt = Kata2 Instructions.txt
 		Kata3 Instructions.txt = Kata3 Instructions.txt
+		Kata4 Instructions.txt = Kata4 Instructions.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M3_Kata2", "M3_Kata2\M3_Kata2.csproj", "{3FD78D28-176C-4020-8133-9A34FB3CAA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3_Kata3", "M3_Kata3\M3_Kata3.csproj", "{FB6DB0BD-B358-4106-969C-94B7860D41A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M3_Kata3", "M3_Kata3\M3_Kata3.csproj", "{FB6DB0BD-B358-4106-969C-94B7860D41A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3_Kata4", "M3_Kata4\M3_Kata4.csproj", "{A2AB1179-A15E-43C5-9895-420DF7C23F81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{FB6DB0BD-B358-4106-969C-94B7860D41A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB6DB0BD-B358-4106-969C-94B7860D41A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB6DB0BD-B358-4106-969C-94B7860D41A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AB1179-A15E-43C5-9895-420DF7C23F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AB1179-A15E-43C5-9895-420DF7C23F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AB1179-A15E-43C5-9895-420DF7C23F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AB1179-A15E-43C5-9895-420DF7C23F81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
