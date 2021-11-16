@@ -16,6 +16,17 @@ namespace Kata1
             {
                 Console.WriteLine($"There are {mySpotList.Count(col)} number of {col} spots");
             }
+
+            #region Kata4 applied on Kata1
+            var majorList = ColoredSpots.ClassFactory.CreateColoredSpotsList(5);
+            foreach (var item in majorList)
+            {
+                Console.WriteLine();
+                Console.WriteLine(item);
+            }
+            #endregion
+
+            majorList[0].mySpots[0]
         }
     }
 }

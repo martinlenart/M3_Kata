@@ -8,7 +8,7 @@ namespace Kata1
 {
     class ColoredSpots : IColoredSpots
     {
-        List<SpotColor> mySpots = new List<SpotColor>();
+        public List<SpotColor> mySpots = new List<SpotColor>();
 
         public int Count(SpotColor color)
         {
@@ -60,6 +60,22 @@ namespace Kata1
                 mySpots.Add(col);
             }
         }
+
+        #region Kata4 applied on Kata1
+        public static class ClassFactory
+        {
+            public static List<ColoredSpots> CreateColoredSpotsList(int NrOfElements)
+            {
+                var rnd = new Random();
+                List<ColoredSpots> retList = new List<ColoredSpots>();
+                for (int i = 0; i < NrOfElements; i++)
+                {
+                    retList.Add(new ColoredSpots(rnd.Next(1, 51)));
+                }
+                return retList;
+            }
+        }
+        #endregion
     }
 }
 

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace M3_Kata3
 {
  
-
     class VariousDates : IVariousDates
     {
         List<SpotDate> _itemList = new List<SpotDate>();

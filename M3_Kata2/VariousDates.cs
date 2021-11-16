@@ -45,7 +45,7 @@ namespace M3_Kata2
             {
                 try
                 {
-                    _myDates.Add(DateTime.Parse($"{rnd.Next(2000, 2022)}-{rnd.Next(1, 13)}-{rnd.Next(1, 32)}"));
+                    _myDates.Add(new DateTime(rnd.Next(2000, 2022), rnd.Next(1, 13), rnd.Next(1, 32)));
                 }
                 catch
                 {
