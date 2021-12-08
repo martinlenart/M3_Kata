@@ -25,8 +25,6 @@ namespace Kata1
                 Console.WriteLine(item);
             }
             #endregion
-
-            majorList[0].mySpots[0]
         }
     }
 }
